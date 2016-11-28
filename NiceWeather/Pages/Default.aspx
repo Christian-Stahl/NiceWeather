@@ -16,10 +16,7 @@
     <script type="text/javascript" src="../Scripts/App.js"></script>
 </asp:Content>
 
-<%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
-<asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Page Title
-</asp:Content>
+<asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server"></asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
