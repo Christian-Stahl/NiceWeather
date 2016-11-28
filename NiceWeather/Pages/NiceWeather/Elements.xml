@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="NiceWeather" Title="NiceWeather" Description="NiceWeather" DefaultWidth="300" DefaultHeight="200">
+    <Content Type="html" Src="~appWebUrl/Pages/NiceWeather.aspx?{StandardTokens}" />
+    <Properties>
+    </Properties>
+  </ClientWebPart>
+</Elements>
