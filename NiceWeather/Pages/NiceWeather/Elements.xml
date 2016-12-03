@@ -6,7 +6,7 @@
       <Property
         Name="Latitude"
         Type="string"
-        RequiresDesignerPermission="true"
+        RequiresDesignerPermission="false"
         WebCategory="App Settings"
         WebDisplayName="Latitude - Find the lat and long from itouchmap.com/latlong.html"
         DefaultValue="24.5456"
@@ -15,7 +15,7 @@
       <Property
         Name="Longitude"
         Type="string"
-        RequiresDesignerPermission="true"
+        RequiresDesignerPermission="false"
         WebCategory="App Settings"
         WebDisplayName="Longitude"
         DefaultValue="-81.8124"
@@ -24,7 +24,7 @@
       <Property
         Name="customCity"
         Type="string"
-        RequiresDesignerPermission="true"
+        RequiresDesignerPermission="false"
         WebCategory="App Settings"
         WebDisplayName="City Name - Add a city and provide proper values in the lat and long textboxes"
         DefaultValue=""
@@ -33,7 +33,7 @@
       <Property
         Name="appKey"
         Type="string"
-        RequiresDesignerPermission="true"
+        RequiresDesignerPermission="false"
         WebCategory="App Settings"
         WebDisplayName="API Key - Get a key from darksky.net/dev/ (It's free..)"
         DefaultValue="InsertAPIKeyHere"
@@ -42,7 +42,7 @@
       <Property
         Name="Unit"
         Type="enum"
-        RequiresDesignerPermission="true"
+        RequiresDesignerPermission="false"
         WebCategory="App Settings"
         WebDisplayName="Temperature scale"
         DefaultValue="si">
@@ -54,7 +54,7 @@
       <Property
         Name="Language"
         Type="enum"
-        RequiresDesignerPermission="true"
+        RequiresDesignerPermission="false"
         WebCategory="App Settings"
         WebDisplayName="Desired language"
         DefaultValue="en">
