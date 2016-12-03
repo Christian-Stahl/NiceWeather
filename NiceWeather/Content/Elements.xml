@@ -2,5 +2,24 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Content">
     <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\currentWeather.css" Url="Content/currentWeather.css" ReplaceContent="TRUE" />
+    <File Path="Content\currentWeather.min.css" Url="Content/currentWeather.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\archivoblack\archivoblack-regular-webfont.svg" Url="Content/fonts/archivoblack/archivoblack-regular-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\archivoblack\archivoblack-regular-webfont.ttf" Url="Content/fonts/archivoblack/archivoblack-regular-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\archivoblack\archivoblack-regular-webfont.woff" Url="Content/fonts/archivoblack/archivoblack-regular-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\archivoblack\archivoblack-regular-webfont.eot" Url="Content/fonts/archivoblack/archivoblack-regular-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontAwesome\fontawesome-webfont.svg" Url="Content/fonts/fontAwesome/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontAwesome\fontawesome-webfont.ttf" Url="Content/fonts/fontAwesome/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontAwesome\fontawesome-webfont.woff" Url="Content/fonts/fontAwesome/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontAwesome\FontAwesome.otf" Url="Content/fonts/fontAwesome/FontAwesome.otf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontAwesome\fontawesome-webfont.eot" Url="Content/fonts/fontAwesome/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.svg" Url="Content/fonts/ptsans_bold_macroman/PTS75F-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.ttf" Url="Content/fonts/ptsans_bold_macroman/PTS75F-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.woff" Url="Content/fonts/ptsans_bold_macroman/PTS75F-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.eot" Url="Content/fonts/ptsans_bold_macroman/PTS75F-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.woff" Url="Content/fonts/ptsans_regular_macroman/PTS55F-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.eot" Url="Content/fonts/ptsans_regular_macroman/PTS55F-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.svg" Url="Content/fonts/ptsans_regular_macroman/PTS55F-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.ttf" Url="Content/fonts/ptsans_regular_macroman/PTS55F-webfont.ttf" ReplaceContent="TRUE" />
   </Module>
 </Elements>

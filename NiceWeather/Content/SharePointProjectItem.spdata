@@ -3,5 +3,24 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
     <ProjectItemFile Source="App.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="currentWeather.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="currentWeather.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\archivoblack\archivoblack-regular-webfont.svg" Target="Content\fonts\archivoblack\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\archivoblack\archivoblack-regular-webfont.ttf" Target="Content\fonts\archivoblack\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\archivoblack\archivoblack-regular-webfont.woff" Target="Content\fonts\archivoblack\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\archivoblack\archivoblack-regular-webfont.eot" Target="Content\fonts\archivoblack\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontAwesome\fontawesome-webfont.svg" Target="Content\fonts\fontAwesome\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontAwesome\fontawesome-webfont.ttf" Target="Content\fonts\fontAwesome\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontAwesome\fontawesome-webfont.woff" Target="Content\fonts\fontAwesome\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontAwesome\FontAwesome.otf" Target="Content\fonts\fontAwesome\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontAwesome\fontawesome-webfont.eot" Target="Content\fonts\fontAwesome\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_bold_macroman\PTS75F-webfont.svg" Target="Content\fonts\ptsans_bold_macroman\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_bold_macroman\PTS75F-webfont.ttf" Target="Content\fonts\ptsans_bold_macroman\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_bold_macroman\PTS75F-webfont.woff" Target="Content\fonts\ptsans_bold_macroman\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_bold_macroman\PTS75F-webfont.eot" Target="Content\fonts\ptsans_bold_macroman\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_regular_macroman\PTS55F-webfont.woff" Target="Content\fonts\ptsans_regular_macroman\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_regular_macroman\PTS55F-webfont.eot" Target="Content\fonts\ptsans_regular_macroman\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_regular_macroman\PTS55F-webfont.svg" Target="Content\fonts\ptsans_regular_macroman\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ptsans_regular_macroman\PTS55F-webfont.ttf" Target="Content\fonts\ptsans_regular_macroman\" Type="ElementFile" />
   </Files>
 </ProjectItem>

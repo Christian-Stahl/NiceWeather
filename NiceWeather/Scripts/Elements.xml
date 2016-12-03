@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
-    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Resources.en-US.js" Url="Scripts/Resources.en-US.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\skycons.min.js" Url="Scripts/skycons.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\todaysWeather.js" Url="Scripts/todaysWeather.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\todaysWeather.min.js" Url="Scripts/todaysWeather.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.min.js" Url="Scripts/moment.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.2.4.min.js" Url="Scripts/jquery-2.2.4.min.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

@@ -1,8 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ClientWebPart Name="NiceWeather" Title="NiceWeather" Description="NiceWeather" DefaultWidth="300" DefaultHeight="200">
-    <Content Type="html" Src="~appWebUrl/Pages/NiceWeather.aspx?{StandardTokens}" />
+  <ClientWebPart Name="WeatherAppPart" Title="Current Weather" Description="Displays the current weather" DefaultWidth="300" DefaultHeight="390">
+    <Content Type="html" Src="~appWebUrl/Pages/WeatherAppPart.aspx?{StandardTokens}&amp;Latitude=_Latitude_&amp;Longitude=_Longitude_&amp;Unit=_Unit_&amp;appKey=_appKey_&amp;Language=_Language_&amp;customCity=_customCity_" />
     <Properties>
+      <Property
+        Name="Latitude"
+        Type="string"
+        RequiresDesignerPermission="true"
+        WebCategory="App Settings"
+        WebDisplayName="Latitude - Find the lat and long from itouchmap.com/latlong.html"
+        DefaultValue="24.5456"
+      >
+      </Property>
+      <Property
+        Name="Longitude"
+        Type="string"
+        RequiresDesignerPermission="true"
+        WebCategory="App Settings"
+        WebDisplayName="Longitude"
+        DefaultValue="-81.8124"
+      >
+      </Property>
+      <Property
+        Name="customCity"
+        Type="string"
+        RequiresDesignerPermission="true"
+        WebCategory="App Settings"
+        WebDisplayName="City Name - Add a city and provide proper values in the lat and long textboxes"
+        DefaultValue=""
+      >
+      </Property>
+      <Property
+        Name="appKey"
+        Type="string"
+        RequiresDesignerPermission="true"
+        WebCategory="App Settings"
+        WebDisplayName="API Key - Get a key from darksky.net/dev/ (It's free..)"
+        DefaultValue="InsertAPIKeyHere"
+      >
+      </Property>
+      <Property
+        Name="Unit"
+        Type="enum"
+        RequiresDesignerPermission="true"
+        WebCategory="App Settings"
+        WebDisplayName="Temperature scale"
+        DefaultValue="si">
+        <EnumItems>
+          <EnumItem WebDisplayName="Celsius" Value="si"/>
+          <EnumItem WebDisplayName="Fahrenheit" Value="us"/>
+        </EnumItems>
+      </Property>
+      <Property
+        Name="Language"
+        Type="enum"
+        RequiresDesignerPermission="true"
+        WebCategory="App Settings"
+        WebDisplayName="Desired language"
+        DefaultValue="en">
+        <EnumItems>
+          <EnumItem WebDisplayName="Arabic" Value="ar"/>
+          <EnumItem WebDisplayName="German" Value="de"/>         
+          <EnumItem WebDisplayName="English (default)" Value="en"/>
+          <EnumItem WebDisplayName="Spanish" Value="es"/>
+          <EnumItem WebDisplayName="French" Value="fr"/>
+          <EnumItem WebDisplayName="Italian" Value="it"/>
+          <EnumItem WebDisplayName="Dutch" Value="nl"/>
+          <EnumItem WebDisplayName="Portuguese" Value="pt"/>
+          <EnumItem WebDisplayName="Polish" Value="pl"/>
+          <EnumItem WebDisplayName="Russian" Value="ru"/>
+          <EnumItem WebDisplayName="Slovenian" Value="sl"/>
+          <EnumItem WebDisplayName="Swedish" Value="sv"/>
+        </EnumItems>
+      </Property>
     </Properties>
   </ClientWebPart>
 </Elements>

@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Images">
-    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\Instructions\3.png" Url="Images/Instructions/3.png" ReplaceContent="TRUE" />
+    <File Path="Images\Instructions\4.png" Url="Images/Instructions/4.png" ReplaceContent="TRUE" />
+    <File Path="Images\Instructions\5.png" Url="Images/Instructions/5.png" ReplaceContent="TRUE" />
+    <File Path="Images\Instructions\6.png" Url="Images/Instructions/6.png" ReplaceContent="TRUE" />
+    <File Path="Images\Instructions\1.png" Url="Images/Instructions/1.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\mist.png" Url="Images/Tick/mist.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\mist_night.png" Url="Images/Tick/mist_night.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\shower2.png" Url="Images/Tick/shower2.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\shower2_night.png" Url="Images/Tick/shower2_night.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\shower3.png" Url="Images/Tick/shower3.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\sleet.png" Url="Images/Tick/sleet.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\snow2.png" Url="Images/Tick/snow2.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\snow3_night.png" Url="Images/Tick/snow3_night.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\snow4.png" Url="Images/Tick/snow4.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\sunny.png" Url="Images/Tick/sunny.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\sunny_night.png" Url="Images/Tick/sunny_night.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\tstorm1.png" Url="Images/Tick/tstorm1.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\tstorm1_night.png" Url="Images/Tick/tstorm1_night.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\tstorm3.png" Url="Images/Tick/tstorm3.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\cloudy1_night.png" Url="Images/Tick/cloudy1_night.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\cloudy2.png" Url="Images/Tick/cloudy2.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\cloudy5.png" Url="Images/Tick/cloudy5.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\hail.png" Url="Images/Tick/hail.png" ReplaceContent="TRUE" />
+    <File Path="Images\Tick\light_rain.png" Url="Images/Tick/light_rain.png" ReplaceContent="TRUE" />
+    <File Path="Images\CurrentWeatherLogo.png" Url="Images/CurrentWeatherLogo.png" ReplaceContent="TRUE" />
   </Module>
 </Elements>

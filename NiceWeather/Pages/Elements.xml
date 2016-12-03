@@ -2,6 +2,6 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Pages">
     <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
-    <File Path="Pages\NiceWeather.aspx" Url="Pages/NiceWeather.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\WeatherAppPart.aspx" Url="Pages/WeatherAppPart.aspx" ReplaceContent="TRUE" />
   </Module>
 </Elements>

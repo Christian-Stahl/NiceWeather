@@ -7,8 +7,8 @@
     <ProjectGuid>{C2347D00-428D-4ED4-81B3-76B4CB50A9FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NiceWeather</RootNamespace>
-    <AssemblyName>NiceWeather</AssemblyName>
+    <RootNamespace>currentWeather</RootNamespace>
+    <AssemblyName>currentWeather</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>16.1</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,6 +43,58 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Content\currentWeather.css" />
+    <Content Include="Content\currentWeather.min.css" />
+    <Content Include="Content\fonts\archivoblack\archivoblack-regular-webfont.svg" />
+    <Content Include="Content\fonts\fontAwesome\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.svg" />
+    <Content Include="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.svg" />
+    <Content Include="Images\CurrentWeatherLogo.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Instructions\1.png" />
+    <Content Include="Images\Instructions\3.png" />
+    <Content Include="Images\Instructions\4.png" />
+    <Content Include="Images\Instructions\5.png" />
+    <Content Include="Images\Instructions\6.png" />
+    <Content Include="Images\Tick\cloudy1_night.png" />
+    <Content Include="Images\Tick\cloudy2.png" />
+    <Content Include="Images\Tick\cloudy5.png" />
+    <Content Include="Images\Tick\hail.png" />
+    <Content Include="Images\Tick\light_rain.png" />
+    <Content Include="Images\Tick\mist.png" />
+    <Content Include="Images\Tick\mist_night.png" />
+    <Content Include="Images\Tick\shower2.png" />
+    <Content Include="Images\Tick\shower2_night.png" />
+    <Content Include="Images\Tick\shower3.png" />
+    <Content Include="Images\Tick\sleet.png" />
+    <Content Include="Images\Tick\snow2.png" />
+    <Content Include="Images\Tick\snow3_night.png" />
+    <Content Include="Images\Tick\snow4.png" />
+    <Content Include="Images\Tick\sunny.png" />
+    <Content Include="Images\Tick\sunny_night.png" />
+    <Content Include="Images\Tick\tstorm1.png" />
+    <Content Include="Images\Tick\tstorm1_night.png" />
+    <Content Include="Images\Tick\tstorm3.png" />
+    <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\Resources.en-US.js" />
+    <Content Include="Scripts\skycons.min.js" />
+    <Content Include="Scripts\todaysWeather.js" />
+    <Content Include="Scripts\todaysWeather.min.js" />
+    <None Include="Content\fonts\archivoblack\archivoblack-regular-webfont.eot" />
+    <None Include="Content\fonts\archivoblack\archivoblack-regular-webfont.ttf" />
+    <None Include="Content\fonts\archivoblack\archivoblack-regular-webfont.woff" />
+    <None Include="Content\fonts\fontAwesome\fontawesome-webfont.eot" />
+    <None Include="Content\fonts\fontAwesome\fontawesome-webfont.ttf" />
+    <None Include="Content\fonts\fontAwesome\fontawesome-webfont.woff" />
+    <None Include="Content\fonts\fontAwesome\FontAwesome.otf" />
+    <None Include="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.eot" />
+    <None Include="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.ttf" />
+    <None Include="Content\fonts\ptsans_bold_macroman\PTS75F-webfont.woff" />
+    <None Include="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.eot" />
+    <None Include="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.ttf" />
+    <None Include="Content\fonts\ptsans_regular_macroman\PTS55F-webfont.woff" />
     <None Include="packages.config" />
     <None Include="Pages\NiceWeather\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{ac351a57-d490-4dfc-9a6c-61c53579f3f4}</SharePointProjectItemId>
@@ -57,13 +109,11 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4a5ced9d-08f3-419b-8111-df3786f85519}</SharePointProjectItemId>
     </None>
-    <Content Include="Pages\NiceWeather.aspx" />
+    <Content Include="Pages\WeatherAppPart.aspx" />
     <Content Include="Pages\NiceWeather\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">
@@ -73,9 +123,6 @@
     <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\AppIcon.png">
-      <OpcRelationship>manifest-icon</OpcRelationship>
-    </Content>
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f7f09742-bdb2-40c0-a353-145cf94412f8}</SharePointProjectItemId>
@@ -99,6 +146,16 @@
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.resx">
+      <OpcRelationship>content-defaultresource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en-US.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
