@@ -14,6 +14,6 @@
 
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
     <div>
-        Hello!
+        Hello, this is the default page. The name of the Add-In is NiceWeather.
     </div>
  </asp:Content>
