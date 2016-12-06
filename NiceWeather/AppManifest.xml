@@ -3,7 +3,7 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="currentWeather"
      ProductID="{1a39db4b-c642-40da-b63a-8f3641a5a36d}"
-     Version="1.0.0.22"
+     Version="1.0.0.21"
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>

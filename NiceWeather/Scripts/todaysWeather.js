@@ -16,7 +16,7 @@ jQuery.noConflict();
 (function ($) {
     var urlForecast = 'https://api.darksky.net/forecast/';
 
-    // App settings parameters
+    // Add-In settings parameters
     var apiKey = getQueryStringParameter('appKey');
     var unit = getQueryStringParameter('Unit');
     var translationLang = getQueryStringParameter('Language');
@@ -138,7 +138,7 @@ jQuery.noConflict();
                     $('#cwWrapper').show();
                     $('.cwExtendedInfo').hide();
                     $('.cwInfoBeta, .cwInfoGamma, .cwInfoDelta').hide();
-                    $('.cwIconWrapper').addClass('cwNoResponse').html('The weather services in not responding, make sure to add a valid API key. Check the settings for the Add-in. <br /><br />If you dont have a key yet you can get <a href="https://darksky.net/dev/register" target="_blank">a free key from here..</a> ');
+                    $('.cwIconWrapper').addClass('cwNoResponse').html('The weather services in not responding, please add a valid API key in the settings for this Add-in. <br /><br />If you dont have a key yet you can get <a href="https://darksky.net/dev/register" target="_blank">a free key from here..</a> ');
                 });
             }
         }   // End JsonP error 

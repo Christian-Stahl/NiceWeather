@@ -7,7 +7,7 @@
         Name="Latitude"
         Type="string"
         RequiresDesignerPermission="false"
-        WebCategory="App Settings"
+        WebCategory="Weather Settings"
         WebDisplayName="Latitude - Find the lat and long from itouchmap.com/latlong.html"
         DefaultValue="24.5456"
       >
@@ -16,7 +16,7 @@
         Name="Longitude"
         Type="string"
         RequiresDesignerPermission="false"
-        WebCategory="App Settings"
+        WebCategory="Weather Settings"
         WebDisplayName="Longitude"
         DefaultValue="-81.8124"
       >
@@ -25,8 +25,8 @@
         Name="customCity"
         Type="string"
         RequiresDesignerPermission="false"
-        WebCategory="App Settings"
-        WebDisplayName="City Name - Add a city and provide proper values in the lat and long textboxes"
+        WebCategory="Weather Settings"
+        WebDisplayName="City Name - Add a name you prefer, and add longitude and latitude in the text boxes below"
         DefaultValue=""
       >
       </Property>
@@ -34,7 +34,7 @@
         Name="appKey"
         Type="string"
         RequiresDesignerPermission="false"
-        WebCategory="App Settings"
+        WebCategory="Weather Settings"
         WebDisplayName="API Key - Get a key from darksky.net/dev/ (It's free..)"
         DefaultValue="InsertAPIKeyHere"
       >
@@ -43,8 +43,8 @@
         Name="Unit"
         Type="enum"
         RequiresDesignerPermission="false"
-        WebCategory="App Settings"
-        WebDisplayName="Temperature scale"
+        WebCategory="Weather Settings"
+        WebDisplayName="Temperature unit"
         DefaultValue="si">
         <EnumItems>
           <EnumItem WebDisplayName="Celsius" Value="si"/>
@@ -55,8 +55,8 @@
         Name="Language"
         Type="enum"
         RequiresDesignerPermission="false"
-        WebCategory="App Settings"
-        WebDisplayName="Desired language"
+        WebCategory="Weather Settings"
+        WebDisplayName="Preferred language"
         DefaultValue="en">
         <EnumItems>
           <EnumItem WebDisplayName="Arabic" Value="ar"/>
