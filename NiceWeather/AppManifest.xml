@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
-     Name="currentWeather"
-     ProductID="{1a39db4b-c642-40da-b63a-8f3641a5a36d}"
-     Version="1.0.0.21"
+     Name="currentWeathers"
+     ProductID="{64ec5802-88f6-4bac-9972-474cafc9956e}"
+     Version="1.0.0.22"
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>
@@ -13,7 +13,9 @@
       <SupportedLocale CultureName="en-US" />
     </SupportedLocales>
   </Properties>
+
   <AppPrincipal>
     <Internal />
   </AppPrincipal>
+
 </App>

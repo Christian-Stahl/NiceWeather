@@ -1,1 +1,2 @@
-﻿var App_Message = "Today";
+﻿
+// var App_Message = "Today";

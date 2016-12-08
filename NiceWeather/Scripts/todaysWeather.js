@@ -40,6 +40,48 @@ jQuery.noConflict();
                 unitScale = '&deg;F';
             }
 
+            // Add the word Today in different languages
+            var selectedLang = "";
+            if (translationLang == 'en') {
+                selectedLang = 'Today';
+            }
+            else if (translationLang == 'ar') {
+                selectedLang = 'اليوم';
+            }
+            else if (translationLang == 'de') {
+                selectedLang = 'Heute';
+            }
+            else if (translationLang == 'es') {
+                selectedLang = 'Hoy';
+            }
+            else if (translationLang == 'fr') {
+                selectedLang = 'Aujourd´hui';
+            }
+            else if (translationLang == 'it') {
+                selectedLang = 'Oggi';
+            }
+            else if (translationLang == 'nl') {
+                selectedLang = 'Vandaag';
+            }
+            else if (translationLang == 'pt') {
+                selectedLang = 'Hoje';
+            }
+            else if (translationLang == 'pl') {
+                selectedLang = 'Dzisiaj';
+            }
+            else if (translationLang == 'ru') {
+                selectedLang = 'Cегодня';
+            }
+            else if (translationLang == 'sl') {
+                selectedLang = 'Danes';
+            }
+            else if (translationLang == 'sv') {
+                selectedLang = 'I dag';
+            }
+            else {
+                selectedLang = '';
+            }
+
             // Add City to HTML
             if (customCitySetting != '') {
                 $('.cwLocation h1').html(customCitySetting);
@@ -53,6 +95,9 @@ jQuery.noConflict();
 
             // Add data to HTML
             $('.unitScale').html(unitScale);
+
+            // Add data to HTML
+            $('#cwToday').html(selectedLang);
 
             // Forecast today big
             $('.cwTempInt').html(data.currently.temperature.toFixed(0));

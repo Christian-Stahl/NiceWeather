@@ -37,6 +37,7 @@
 </head>
 <body>
 
+
 <div id="cwWrapper">
 	<div class="cwLocation"><h1></h1></div>
 	<div id="cwToday"></div>
@@ -92,7 +93,9 @@
 </div>
 
 <!-- output today per language -->
+<!--
 <script type="text/javascript">cwToday.innerText = App_Message;</script>
+-->
 
 </body>
 </html>
