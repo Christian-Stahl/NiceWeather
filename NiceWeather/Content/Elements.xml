@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Content">
-    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
     <File Path="Content\currentWeather.css" Url="Content/currentWeather.css" ReplaceContent="TRUE" />
     <File Path="Content\currentWeather.min.css" Url="Content/currentWeather.min.css" ReplaceContent="TRUE" />
     <File Path="Content\fonts\archivoblack\archivoblack-regular-webfont.svg" Url="Content/fonts/archivoblack/archivoblack-regular-webfont.svg" ReplaceContent="TRUE" />

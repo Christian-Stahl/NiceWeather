@@ -6,15 +6,15 @@
 <html>
 <head>
     <title>Current Weather</title>
-    <link rel="Stylesheet" type="text/css" href="../Content/currentWeather.min.css?rev=3" />
-    <!-- if jquery's already loaded from ex master page load only this -->
+    <link rel="Stylesheet" type="text/css" href="../Content/currentWeather.min.css?rev=4" />
+    <!-- if jquery's already loaded then load it from CDN instead -->
     <script type="text/javascript">window.jQuery || document.write('<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"><\/script>')</script>
     <script type="text/javascript" src="../Scripts/moment.min.js"></script>
     <script type="text/javascript" src="../Scripts/skycons.min.js"></script>
-    <script type="text/javascript" src="../Scripts/todaysWeather.js?rev=3"></script>
+    <script type="text/javascript" src="../Scripts/todaysWeather.js?rev=4"></script>
     <script type="text/javascript" src="../scripts/Resources.<SharePoint:EncodedLiteral runat='server' text='<%$Resources:wss,language_value%>' EncodeMethod='HtmlEncode' />.js"></script>
     <script type="text/javascript">
-        // Set the style of the client web part page to be consistent with the host web.
+        // Let the style be consistent with the host web
         (function () {
             'use strict';
             var hostUrl = '';
@@ -91,11 +91,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- output today per language -->
-<!--
-<script type="text/javascript">cwToday.innerText = App_Message;</script>
--->
 
 </body>
 </html>

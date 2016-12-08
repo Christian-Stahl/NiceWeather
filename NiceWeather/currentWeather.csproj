@@ -120,7 +120,6 @@
       <SharePointProjectItemId>{1afb0e24-d880-4ba8-8e03-49a7a2bdfaf9}</SharePointProjectItemId>
     </None>
     <Content Include="Content\Elements.xml" />
-    <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Elements.xml" />

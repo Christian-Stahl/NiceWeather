@@ -1,6 +1,5 @@
 ﻿'use strict';
 
-// To be able to get config values
 function getQueryStringParameter(urlParameterKey) {
     var params = document.URL.split('?')[1].split('&');
     var strParams = '';
@@ -11,12 +10,11 @@ function getQueryStringParameter(urlParameterKey) {
     }
 }
 
-// Anonymous
 jQuery.noConflict();
 (function ($) {
     var urlForecast = 'https://api.darksky.net/forecast/';
 
-    // Add-In settings parameters
+    // Add-In parameter settings
     var apiKey = getQueryStringParameter('appKey');
     var unit = getQueryStringParameter('Unit');
     var translationLang = getQueryStringParameter('Language');
@@ -24,12 +22,12 @@ jQuery.noConflict();
     var longi = getQueryStringParameter('Longitude');
     var customCitySetting = getQueryStringParameter('customCity');
 
-    // Start Ajax forecast.io   
     jQuery.ajax({
         url: urlForecast + apiKey + "/" + lati + "," + longi + "?callback=?&units=" + unit + '&lang=' + translationLang,
         type: 'GET',
         dataType: 'jsonp',
-        timeout: 3500,  // Jsonp timeout
+        timeout: 3500,
+
         success: function (data) {
 
             // Add UnitScalee to HTML
@@ -103,7 +101,7 @@ jQuery.noConflict();
             $('.cwTempInt').html(data.currently.temperature.toFixed(0));
             $('.cwDescription h1').html(data.currently.summary);
 
-            /* current weather icons */
+            // Current weather icons
             var currIcon = data.currently.icon;
             switch (currIcon) {
                 case "clear-day": $('.cwIconPlaceholder').addClass("cwIconPlaceholderSunSpin").append('<img src="../images/tick/sunny.png">');
@@ -169,14 +167,12 @@ jQuery.noConflict();
             skycons.set('day5icon', day5_icon);
             skycons.play();
 
-            // Display it all when the document are ready 
+            // Show the wrapper when the document are ready 
             $(document).ready(function () {
                 $('#cwWrapper').show();
             });
         },
-        // End Ajax forecast.io success
 
-        // JsonP error   
         error: function (parsedjson) {
             if ($('.cwLocation').length) {
                 $(document).ready(function () {
@@ -186,6 +182,7 @@ jQuery.noConflict();
                     $('.cwIconWrapper').addClass('cwNoResponse').html('The weather services in not responding, please add a valid API key in the settings for this Add-in. <br /><br />If you dont have a key yet you can get <a href="https://darksky.net/dev/register" target="_blank">a free key from here..</a> ');
                 });
             }
-        }   // End JsonP error 
-    });     // End Ajax forecast.io
-})(jQuery); // End anonymous
+        }
+
+    });
+})(jQuery); 
